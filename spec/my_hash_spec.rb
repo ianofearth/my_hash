@@ -2,7 +2,7 @@ require('rspec')
 require('my_hash')
 require('pry')
 
-descibe(MyHash) do
+describe(MyHash) do
   describe("#fetch") do
     it("retrieves a stored value by its key") do
       test_hash = MyHash.new()
